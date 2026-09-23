@@ -1,6 +1,6 @@
 # CNN-Transformer with Sigmoid Label for High-Resolution Sub-Degree DOA Estimation
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LIfengWang666/CNN-Transformer-with-Sigmoid-Label-for-High-Resolution-Off-Grid-DOA-Estimation/HEAD?filepath=code/figures/figures.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LIfengWang666/sigmoid-doa/HEAD?filepath=code/figures/figures.ipynb)
 
 **▶ Run online (no setup):** click the **Binder** badge above, then
 **Run ▸ Run All Cells** in the notebook `code/figures/figures.ipynb`.
@@ -8,7 +8,7 @@ Binder builds the environment automatically and shows all four figures.
 
 > To activate your own Binder link, replace `USERNAME/REPO` in the badge URL
 > above (and in the line below) with your GitHub user and repository name.
-> This repository: `https://mybinder.org/v2/gh/LIfengWang666/CNN-Transformer-with-Sigmoid-Label-for-High-Resolution-Off-Grid-DOA-Estimation/HEAD?filepath=code/figures/figures.ipynb`
+> This repository: `https://mybinder.org/v2/gh/LIfengWang666/sigmoid-doa/HEAD?filepath=code/figures/figures.ipynb`
 
 Code to reproduce the figures of the paper. Every figure is produced by running
 the **full pipeline** (data generation → trained models → read-out → plot), so
