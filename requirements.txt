@@ -1,7 +1,8 @@
-numpy
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy<2
 scipy
 scikit-learn
 matplotlib
-torch
 einops
-timm
+timm==0.9.16
+torch==2.2.2+cpu

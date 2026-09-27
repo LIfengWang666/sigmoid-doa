@@ -14,13 +14,22 @@ Code to reproduce the figures of the paper. Every figure is produced by running
 the **full pipeline** (data generation → trained models → read-out → plot), so
 the reader can follow the logic end to end.
 
-## 1. Install (local run)
+## 1. Get the code
+
+Clone the repository (or click **Code ▸ Download ZIP** on the GitHub page):
+
+```
+git clone https://github.com/LIfengWang666/sigmoid-doa.git
+cd sigmoid-doa
+```
+
+## 2. Install the dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-## 2. Reproduce each figure (one command each)
+## 3. Reproduce each figure (one command each)
 
 Run from the **`code/figures/`** directory:
 
@@ -36,13 +45,13 @@ No arguments, no configuration. To force CPU add the prefix
 `CUDA_VISIBLE_DEVICES=""`. Fig. 3 and Fig. 4 run 1000 Monte-Carlo trials per
 point, so they take a few minutes on CPU.
 
-## 3. Online run on Binder (no installation)
+## 4. Online run on Binder (no installation)
 
 Click the Binder badge at the top. It opens `code/figures/figures.ipynb`; choose
 **Run All Cells**. The notebook runs the four scripts and displays the resulting
 figures inline.
 
-## 4. The pipeline in each script (so nothing is hidden)
+## 5. The pipeline in each script (so nothing is hidden)
 
 Every `figN_*.py` is short and self-contained; it does:
 
