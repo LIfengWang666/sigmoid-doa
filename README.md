@@ -51,6 +51,11 @@ Click the Binder badge at the top. It opens `code/figures/figures.ipynb`; choose
 **Run All Cells**. The notebook runs the four scripts and displays the resulting
 figures inline.
 
+> ⚠️ **Note:** the free Binder service can be slow or time out while installing
+> PyTorch, and may fail to start. The code is **verified to run locally** — if the
+> Binder badge does not start within a few minutes, please use the local
+> instructions (Sections 1–3). Binder is provided as a convenience only.
+
 ## 5. The pipeline in each script (so nothing is hidden)
 
 Every `figN_*.py` is short and self-contained; it does:
